@@ -1,0 +1,10 @@
+name: market_snapshot
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - requests
+  - pip:
+    - yfinance
